@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Shipping details</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230119120759">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header id="header" class="header">
+			<div class="header__container">
+				<nav class="header__body-menu">
+					<div class="header__left-menu menu-left">
+						<ul data-da=".menu__body, 991.98" class="menu-left__list">
+							<li class="menu-left__item"><a href="home.html" class="menu-left__link">Home</a></li>
+							<li class="menu-left__item"><a href="clothes.html" class="menu-left__link">Clothes</a></li>
+							<li class="menu-left__item"><a href="shoes.html" class="menu-left__link">Shoes</a></li>
+							<li class="menu-left__item"><a href="accessories.html" class="menu-left__link">Accessories</a></li>
+						</ul>
+					</div>
+					<div data-da=".header__menu, 991.98" class="header__center-menu menu-center">
+						<a href="#" class="menu-center__logo _icon-logo"></a>
+						<input id="menu-center-input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Search..." class="menu-center__input">
+						<label for="menu-center-input" class="menu-center__label _icon-search"></label>
+					</div>
+					<div class="header__right-menu menu-right">
+						<ul data-da=".menu__body, 991.98" class="menu-right__list">
+							<li class="menu-right__item"><a href="hello.html" class="menu-right__link _icon-user"></a></li>
+							<li class="menu-right__item"><a href="cart.html" class="menu-right__link _icon-cart"></a></li>
+							<li class="menu-right__item"><a href="my-favorites.html" class="menu-right__link _icon-favorite-bg"></a></li>
+						</ul>
+					</div>
+				</nav>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page page_shipping-details">
+			<section class="page__details details">
+				<div class="details__container">
+					<form action="#" class="details__form">
+						<div class="details__address adress-details">
+							<h2 class="adress-details__title title-details">Shipping Address</h2>
+							<div class="adress-details__item">
+								<label for="mail" class="adress-details__label">Email</label>
+								<input id="mail" autocomplete="off" type="email" name="form[]" data-error="Ошибка" data-value="" class="adress-details__input">
+							</div>
+							<div class="adress-details__item">
+								<label for="name" class="adress-details__label">Full name</label>
+								<input id="name" autocomplete="off" type="text" name="form[]" data-value="" class="adress-details__input">
+							</div>
+							<div class="adress-details__item">
+								<label for="txtar" class="adress-details__label">Address</label>
+								<textarea id="txtar" name="" id="" cols="30" rows="10" class="adress-details__textarea"></textarea>
+							</div>
+							<div class="adress-details__item">
+								<label for="sel_1" class="adress-details__label">State/Province</label>
+								<select id="sel_1" name="form[]" class="adress-details__select" data-class-modif="adress-details">
+									<option></option>
+									<option value="2">Пункт №1</option>
+									<option value="3">Пункт №2</option>
+									<option value="4">Пункт №3</option>
+								</select>
+							</div>
+							<div class="adress-details__item">
+								<label for="sel_2" class="adress-details__label">Sity</label>
+								<select id="sel_2" name="form[]" class="adress-details__select" data-class-modif="adress-details">
+									<option></option>
+									<option value="2">Пункт №1</option>
+									<option value="3">Пункт №2</option>
+									<option value="4">Пункт №3</option>
+								</select>
+							</div>
+							<div class="adress-details__item">
+								<label for="tel" class="adress-details__label">Phone number</label>
+								<input id="tel" autocomplete="off" type="tel" name="form[]" data-value="" class="adress-details__input">
+							</div>
+							<div class="adress-details__item">
+								<input id="chk" autocomplete="off" type="checkbox" name="form[]" data-value="" class="adress-details__input adress-details__input_checkbox">
+								<label for="chk" class="adress-details__label adress-details__label_checkbox">Set default shipping address</label>
+							</div>
+						</div>
+						<div class="details__methods">
+							<div class="details__delivery delivery-details">
+								<h2 class="delivery-details__title title-details">Delivery method</h2>
+								<div class="delivery-details__checkbox">
+									<input id="c_1" data-error="Ошибка" class="delivery-details__input" type="checkbox" value="1" name="form[]">
+									<label for="c_1" class="delivery-details__label"><span>₦ 2,000</span><span>Delivery fee</span><span>Door delivery</span></label>
+								</div>
+							</div>
+							<div class="details__payment payment-details">
+								<h2 class="payment-details__title title-details">Payment Methods</h2>
+								<input id="radio_1" autocomplete="off" type="radio" name="form[]" data-error="Ошибка" data-value="" class="payment-details__input">
+								<label for="radio_1" class="payment-details__label">Pay with card </label>
+								<span class="payment-details__info">(Get 5% off total price and money back guarantee)</span>
+								<p class="payment-details__text">You will be redirected to Paystack payment gateway</p>
+								<input id="radio_2" autocomplete="off" type="radio" name="form[]" data-error="Ошибка" data-value="" class="payment-details__input">
+								<label for="radio_2" class="payment-details__label">Pay on delivery</label>
+								<ul class="payment-details__list">
+									<li class="payment-details__list-item">Kindly note that we will only accept POS payment option on delivery</li>
+									<li class="payment-details__list-item">You have to make payment before opening package</li>
+									<li class="payment-details__list-item">Once the seal is broken, item can only be returned if damaged or defective </li>
+								</ul>
+							</div>
+						</div>
+						<div class="details__order">
+							<div class="order-details">
+								<h2 class="order-details__title">ORDER SUmmARY</h2>
+								<div class="order-details__items">
+									<div class="order-details__item">
+										<div class="order-details__image">
+											<div class="order-details__image-ibg">
+												<picture><source srcset="img/shoes/05.webp" type="image/webp"><img src="img/shoes/05.jpg" alt="shoes"></picture>
+											</div>
+										</div>
+										<div class="order-details__info">
+											<h4 class="order-details__name">Casual flat loafers</h4>
+											<p class="order-details__size">Size - EU: 36 US: 5.5</p>
+										</div>
+										<div class="order-details__price">₦ 10,000</div>
+										<div class="order-details__quantity quantity">
+											<p>Qty</p>
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+										</div>
+									</div>
+									<div class="order-details__item">
+										<div class="order-details__image">
+											<div class="order-details__image-ibg">
+												<picture><source srcset="img/clothes/09.webp" type="image/webp"><img src="img/clothes/09.jpg" alt="clothes"></picture>
+											</div>
+										</div>
+										<div class="order-details__info">
+											<h4 class="order-details__name">Multicolored armless top</h4>
+											<p class="order-details__size">Size - XS</p>
+										</div>
+										<div class="order-details__price">₦ 10,000</div>
+										<div class="order-details__quantity quantity">
+											<p>Qty</p>
+											<button type="button" class="quantity__button quantity__button_plus"></button>
+											<div class="quantity__input">
+												<input autocomplete="off" type="text" name="form[]" value="1">
+											</div>
+											<button type="button" class="quantity__button quantity__button_minus"></button>
+										</div>
+									</div>
+								</div>
+								<div class="order-details__nomenclature">
+									<ul class="order-details__list">
+										<li class="order-details__fee">Cart sub-total<span>₦ 20,000</span></li>
+										<li class="order-details__fee">Card discount<span>- ₦ 1,000</span></li>
+										<li class="order-details__fee">Delivery fee<span>₦ 2,000</span></li>
+									</ul>
+								</div>
+								<div class="order-details__total">total<span>₦ 21,000</span></div>
+							</div>
+							<div class="details__how how-details">
+								<div class="how-details__top">
+									<p>Is this a gift?</p>
+									<div class="how-details__choice choice-how-details">
+										<div class="choice-how-details__item">
+											<input id="rad_1" data-error="Ошибка" class="choice-how-details__input" type="radio" value="1" name="form[]">
+											<label for="rad_1" class="choice-how-details__label">Yes</label>
+										</div>
+										<div class="choice-how-details__item">
+											<input id="rad_2" checked data-error="Ошибка" class="choice-how-details__input" type="radio" value="2" name="form[]">
+											<label for="rad_2" class="choice-how-details__label"><span class="choice-how-details__no">No</span></label>
+										</div>
+									</div>
+								</div>
+								<div class="how-details__body" hidden>
+									<p>A complimentary gift receipt will be included in the package, and prices will be hidden on the receipt.</p>
+								</div>
+								<div class="how-details__bottom">
+									<button type="submit" class="how-details__button-order">PLACE ORDER</button>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="#" class="footer__logo _icon-logo"></a>
+				<div class="footer__about-us">
+					<ul class="footer__list">
+						<li class="footer__item"><a href="" class="footer__link">About Us</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Contact</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Terms & Conditions</a></li>
+					</ul>
+				</div>
+				<div class="footer__socials socials-footer">
+					<ul class="socials-footer__list">
+						<li class="socials-footer__item"><a href="" class="socials-footer__link _icon-fb"><span>Facebook</span></a></li>
+						<li class="socials-footer__item"><a href="" class="socials-footer__link _icon-tw"><span>Twitter</span></a></li>
+						<li class="socials-footer__item"><a href="" class="socials-footer__link _icon-inst"><span>Instagram</span></a></li>
+					</ul>
+				</div>
+				<div class="footer__subscribe subscribe-footer">
+					<label for="input-footer" class="subscribe-footer__label">Subscribe to our newsletter</label>
+					<form action="#" class="subscribe-footer__body">
+						<input id="input-footer" autocomplete="off" type="text" name="form[]" data-error="Error, try again" data-required="email" placeholder="Email Address" class="subscribe-footer__input">
+						<button type="submit" class="subscribe-footer__button">OK</button>
+					</form>
+				</div>
+				<div class="footer__addres addres-footer">
+					<ul class="addres-footer__list">
+						<li class="addres-footer__item"><a href="" class="addres-footer__link">497 Evergreen Rd. Roseville, CA 95673</a></li>
+						<li class="addres-footer__item"><a href="tel:44345678903" class="addres-footer__link">+44 345 678 903</a></li>
+						<li class="addres-footer__item"><a href="mailto:adobexd@mail.com" class="addres-footer__link">adobexd@mail.com</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230119120759"></script>
+</body>
+
+</html>

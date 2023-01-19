@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Address Book</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230119120759">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header id="header" class="header">
+			<div class="header__container">
+				<nav class="header__body-menu">
+					<div class="header__left-menu menu-left">
+						<ul data-da=".menu__body, 991.98" class="menu-left__list">
+							<li class="menu-left__item"><a href="home.html" class="menu-left__link">Home</a></li>
+							<li class="menu-left__item"><a href="clothes.html" class="menu-left__link">Clothes</a></li>
+							<li class="menu-left__item"><a href="shoes.html" class="menu-left__link">Shoes</a></li>
+							<li class="menu-left__item"><a href="accessories.html" class="menu-left__link">Accessories</a></li>
+						</ul>
+					</div>
+					<div data-da=".header__menu, 991.98" class="header__center-menu menu-center">
+						<a href="#" class="menu-center__logo _icon-logo"></a>
+						<input id="menu-center-input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Search..." class="menu-center__input">
+						<label for="menu-center-input" class="menu-center__label _icon-search"></label>
+					</div>
+					<div class="header__right-menu menu-right">
+						<ul data-da=".menu__body, 991.98" class="menu-right__list">
+							<li class="menu-right__item"><a href="hello.html" class="menu-right__link _icon-user"></a></li>
+							<li class="menu-right__item"><a href="cart.html" class="menu-right__link _icon-cart"></a></li>
+							<li class="menu-right__item"><a href="my-favorites.html" class="menu-right__link _icon-favorite-bg"></a></li>
+						</ul>
+					</div>
+				</nav>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page page_address-book">
+			<div class="address-book__container">
+				<aside class="account-dashboard">
+					<div class="account-dashboard__title">
+						<h2>ACCOUNT DAShbOARD</h2>
+					</div>
+					<ul class="account-dashboard__list">
+						<li class="account-dashboard__item">
+							<a href="account-information.html" class="account-dashboard__link _icon-person">Account Information</a>
+						</li>
+						<li class="account-dashboard__item account-dashboard__item_active">
+							<a href="address-book.html" class="account-dashboard__link _icon-book">Address Book</a>
+						</li>
+						<li class="account-dashboard__item">
+							<a href="my-orders.html" class="account-dashboard__link _icon-present">My Orders</a>
+						</li>
+						<li class="account-dashboard__item">
+							<a href="my-favorites.html" class="account-dashboard__link _icon-favorite-bg">My Favorites</a>
+						</li>
+					</ul>
+					<div class="account-dashboard__bottom">
+						<a href="#" class="account-dashboard__exit _icon-exit">SIGN out</a>
+					</div>
+				</aside>
+				<section class="page__address-book address-book">
+					<h1 class="address-book__title">Address Book</h1>
+					<div class="address-book__card card-address-book">
+						<div class="card-address-book__body">
+							<h3 class="card-address-book__title">Default Shipping Address</h3>
+							<p class="card-address-book__address">Ayokunle Oriolowo</p>
+							<p class="card-address-book__address">No 4 Barnawa Close, Barnawa, Kaduna</p>
+							<p class="card-address-book__address">Kaduna, Kaduna</p>
+							<p class="card-address-book__country">Nigeria</p>
+							<a href="tel:2347085685878" class="card-address-book__phone">+234 708 568 5878</a>
+						</div>
+						<div class="card-address-book__footer">
+							<a href="#" class="card-address-book__button">Edit</a>
+							<a href="#" class="card-address-book__button">Delete</a>
+						</div>
+					</div>
+					<button type="button" class="address-book__button">ADD NEW AddREss</button>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="#" class="footer__logo _icon-logo"></a>
+				<div class="footer__about-us">
+					<ul class="footer__list">
+						<li class="footer__item"><a href="" class="footer__link">About Us</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Contact</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Terms & Conditions</a></li>
+					</ul>
+				</div>
+				<div class="footer__socials socials-footer">
+					<ul class="socials-footer__list">
+						<li class="socials-footer__item"><a href="" class="socials-footer__link _icon-fb"><span>Facebook</span></a></li>
+						<li class="socials-footer__item"><a href="" class="socials-footer__link _icon-tw"><span>Twitter</span></a></li>
+						<li class="socials-footer__item"><a href="" class="socials-footer__link _icon-inst"><span>Instagram</span></a></li>
+					</ul>
+				</div>
+				<div class="footer__subscribe subscribe-footer">
+					<label for="input-footer" class="subscribe-footer__label">Subscribe to our newsletter</label>
+					<form action="#" class="subscribe-footer__body">
+						<input id="input-footer" autocomplete="off" type="text" name="form[]" data-error="Error, try again" data-required="email" placeholder="Email Address" class="subscribe-footer__input">
+						<button type="submit" class="subscribe-footer__button">OK</button>
+					</form>
+				</div>
+				<div class="footer__addres addres-footer">
+					<ul class="addres-footer__list">
+						<li class="addres-footer__item"><a href="" class="addres-footer__link">497 Evergreen Rd. Roseville, CA 95673</a></li>
+						<li class="addres-footer__item"><a href="tel:44345678903" class="addres-footer__link">+44 345 678 903</a></li>
+						<li class="addres-footer__item"><a href="mailto:adobexd@mail.com" class="addres-footer__link">adobexd@mail.com</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230119120759"></script>
+</body>
+
+</html>

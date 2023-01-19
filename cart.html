@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Cart</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230119120759">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header id="header" class="header">
+			<div class="header__container">
+				<nav class="header__body-menu">
+					<div class="header__left-menu menu-left">
+						<ul data-da=".menu__body, 991.98" class="menu-left__list">
+							<li class="menu-left__item"><a href="home.html" class="menu-left__link">Home</a></li>
+							<li class="menu-left__item"><a href="clothes.html" class="menu-left__link">Clothes</a></li>
+							<li class="menu-left__item"><a href="shoes.html" class="menu-left__link">Shoes</a></li>
+							<li class="menu-left__item"><a href="accessories.html" class="menu-left__link">Accessories</a></li>
+						</ul>
+					</div>
+					<div data-da=".header__menu, 991.98" class="header__center-menu menu-center">
+						<a href="#" class="menu-center__logo _icon-logo"></a>
+						<input id="menu-center-input" autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Search..." class="menu-center__input">
+						<label for="menu-center-input" class="menu-center__label _icon-search"></label>
+					</div>
+					<div class="header__right-menu menu-right">
+						<ul data-da=".menu__body, 991.98" class="menu-right__list">
+							<li class="menu-right__item"><a href="hello.html" class="menu-right__link _icon-user"></a></li>
+							<li class="menu-right__item"><a href="cart.html" class="menu-right__link _icon-cart"></a></li>
+							<li class="menu-right__item"><a href="my-favorites.html" class="menu-right__link _icon-favorite-bg"></a></li>
+						</ul>
+					</div>
+				</nav>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page page_cart">
+			<section class="page__top top">
+				<div class="top__container">
+					<h1 class="top__title title_min">Shopping Cart (2 item)</h1>
+				</div>
+			</section>
+			<section class="page__contants contants">
+				<div class="contants__container">
+					<div class="contants__head">
+						<div class="contants__designation">
+							<h3>ITEM DESCRIPTION</h3>
+							<h3>QUANTITY</h3>
+							<h3>UNIT PRICE</h3>
+							<h3>SUB TOTAL</h3>
+						</div>
+					</div>
+					<div class="contants__body">
+						<article class="contants__item item-contants">
+							<div class="item-contants__description">
+								<div class="item-contants__image">
+									<div class="item-contants__image-ibg">
+										<picture><source srcset="img/shoes/05.webp" type="image/webp"><img src="img/shoes/05.jpg" alt="shoes"></picture>
+									</div>
+								</div>
+								<div class="item-contants__info">
+									<h4 class="item-contants__name">Casual flat loafers</h4>
+									<p class="item-contants__size">Size - EU: 36 US: 5.5</p>
+								</div>
+								<div class="item-contants__buttons">
+									<button type="button" class="item-contants__button-favorite _icon-favorite">MOVE TO FAVORITES</button>
+									<button type="button" class="item-contants__button-remove _icon-circle-cross">REMOVE</button>
+								</div>
+							</div>
+							<div class="item-contants__quantity">
+								<select class="item-contants__select" data-class-modif="quantity">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+								</select>
+							</div>
+							<p class="item-contants__unit-price">₦ 10,000</p>
+							<p class="item-contants__sub-total">₦ 10,000</p>
+							<div class="item-contants__designation">
+								<h3>ITEM DESCrIPTION</h3>
+								<h3>QUANTITY</h3>
+								<h3>UNIT PRICE</h3>
+								<h3>SUB TOTAL</h3>
+							</div>
+						</article>
+						<article class="contants__item item-contants">
+							<div class="item-contants__description">
+								<div class="item-contants__image">
+									<div class="item-contants__image-ibg">
+										<picture><source srcset="img/clothes/09.webp" type="image/webp"><img src="img/clothes/09.jpg" alt="clothes"></picture>
+									</div>
+								</div>
+								<div class="item-contants__info">
+									<h4 class="item-contants__name">Multicolored armless top</h4>
+									<p class="item-contants__size">Size - XS</p>
+								</div>
+								<div class="item-contants__buttons">
+									<button type="button" class="item-contants__button-favorite _icon-favorite">MOVE TO FAVORITES</button>
+									<button type="button" class="item-contants__button-remove _icon-circle-cross">REMOVE</button>
+								</div>
+							</div>
+							<div class="item-contants__quantity">
+								<select class="item-contants__select" data-class-modif="quantity">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+								</select>
+							</div>
+							<p class="item-contants__unit-price">₦ 10,000</p>
+							<p class="item-contants__sub-total">₦ 10,000</p>
+							<div class="item-contants__designation">
+								<h3>ITEM DESCRIPTION</h3>
+								<h3>QUANTITY</h3>
+								<h3>UNIT PRICE</h3>
+								<h3>SUB TOTAL</h3>
+							</div>
+						</article>
+					</div>
+					<div class="contants__footer">
+						<div class="contants__total-price">
+							<span>TOTAL:</span>
+							<p>₦ 20,000</p>
+						</div>
+						<div class="contants__delivery">Delivery fee not included yet</div>
+						<div class="contants__buttons">
+							<button type="button" class="contants__button button button_white ">CONTINUE SHOPPING</button>
+							<button type="button" class="contants__button button">PROCEED TO CHECKOUT</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a href="#" class="footer__logo _icon-logo"></a>
+				<div class="footer__about-us">
+					<ul class="footer__list">
+						<li class="footer__item"><a href="" class="footer__link">About Us</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Contact</a></li>
+						<li class="footer__item"><a href="" class="footer__link">Terms & Conditions</a></li>
+					</ul>
+				</div>
+				<div class="footer__socials socials-footer">
+					<ul class="socials-footer__list">
+						<li class="socials-footer__item"><a href="" class="socials-footer__link _icon-fb"><span>Facebook</span></a></li>
+						<li class="socials-footer__item"><a href="" class="socials-footer__link _icon-tw"><span>Twitter</span></a></li>
+						<li class="socials-footer__item"><a href="" class="socials-footer__link _icon-inst"><span>Instagram</span></a></li>
+					</ul>
+				</div>
+				<div class="footer__subscribe subscribe-footer">
+					<label for="input-footer" class="subscribe-footer__label">Subscribe to our newsletter</label>
+					<form action="#" class="subscribe-footer__body">
+						<input id="input-footer" autocomplete="off" type="text" name="form[]" data-error="Error, try again" data-required="email" placeholder="Email Address" class="subscribe-footer__input">
+						<button type="submit" class="subscribe-footer__button">OK</button>
+					</form>
+				</div>
+				<div class="footer__addres addres-footer">
+					<ul class="addres-footer__list">
+						<li class="addres-footer__item"><a href="" class="addres-footer__link">497 Evergreen Rd. Roseville, CA 95673</a></li>
+						<li class="addres-footer__item"><a href="tel:44345678903" class="addres-footer__link">+44 345 678 903</a></li>
+						<li class="addres-footer__item"><a href="mailto:adobexd@mail.com" class="addres-footer__link">adobexd@mail.com</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20230119120759"></script>
+</body>
+
+</html>
